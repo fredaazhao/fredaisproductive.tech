@@ -253,7 +253,11 @@ function App() {
       style={{ 
         minHeight: '100vh', 
         paddingBottom: '100px',
-        backgroundColor: darkMode ? '#191717' : undefined
+        backgroundColor: darkMode ? '#191717' : undefined,
+        margin: 0,
+        padding: 0,
+        top: 0,
+        left: 0
       }}
     >
       {/* Top border */}
@@ -471,7 +475,7 @@ function App() {
             <h2 className={`font-['Source_Serif_4'] font-bold italic text-[32px] mb-[0px] ${darkMode ? 'text-[#E7E7E7]' : 'text-[#191717]'}`}>
               extracurriculars
             </h2>
-            <p className={`font-['Source_Serif_4'] font-normal italic text-[13px] mb-[10px] ${darkMode ? 'text-[#E7E7E7]' : 'text-[#191717]'}`}>
+            <p className={`font-['Source_Serif_4'] font-normal italic text-[13px] mb-[12px] ${darkMode ? 'text-[#E7E7E7]' : 'text-[#191717]'}`}>
               also known as what i pour my heart, soul, blood, sweat, and tears into in my spare time.
             </p>
             
@@ -479,7 +483,7 @@ function App() {
               <div className="flex flex-col gap-[5px]">
                 <div className="flex justify-between items-start">
                   <h3 className={`font-['Manrope'] font-bold text-[14px] ${darkMode ? 'text-[#E7E7E7]' : 'text-[#191717]'}`}>SheHacks+ 10 Co-Chair</h3>
-                  <p className={`font-['Manrope'] font-extralight text-[12px] text-right ${darkMode ? 'text-[#E7E7E7]' : 'text-[#191717]'}`}>Jan 2025 - Present</p>
+                  <p className={`font-['Manrope'] font-extralight text-[12px] text-right ${darkMode ? 'text-[#E7E7E7]' : 'text-[#191717]'}`}>Jan 2025 - Mar 2026</p>
                 </div>
                 <p className={`font-['Manrope'] font-normal text-[13px] ${darkMode ? 'text-[#E7E7E7]' : 'text-[#191717]'}`}>
                   Organizing Canada's largest all-women, non-binary hackathon under the Women+ In Technology Society (WITS+) bubble at Western 🚀
@@ -489,10 +493,10 @@ function App() {
                 </p>
               </div>
               
-              <div className="flex flex-col gap-[5px]">
+              <div className="flex flex-col gap-[5px] mt-[30px]">
                 <div className="flex justify-between items-start">
                   <h3 className={`font-['Manrope'] font-bold text-[14px] ${darkMode ? 'text-[#E7E7E7]' : 'text-[#191717]'}`}>Hack Western 12 Sponsorship Lead</h3>
-                  <p className={`font-['Manrope'] font-extralight text-[12px] text-right ${darkMode ? 'text-[#E7E7E7]' : 'text-[#191717]'}`}>Mar 2025 - Present</p>
+                  <p className={`font-['Manrope'] font-extralight text-[12px] text-right ${darkMode ? 'text-[#E7E7E7]' : 'text-[#191717]'}`}>Mar 2025 - Jan 2026</p>
                 </div>
                 <p className={`font-['Manrope'] font-normal text-[13px] ${darkMode ? 'text-[#E7E7E7]' : 'text-[#191717]'}`}>
                   Organizing corporate relations for one of Canada's largest student-run hackathons at Western 🐴
